@@ -1,4 +1,4 @@
-# delogger:load
+# delogger:module/api/load
 
 # load constants
 scoreboard players set $20 const 20

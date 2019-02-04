@@ -1,4 +1,4 @@
-# delogger:test
+# delogger:test/everything
 
 execute at 0-0-0-0-0 run data modify block ~ ~ ~ RecordItem.tag.delogger.param.log set value { function: "mypack:some/function", message: "Generating terrain..." }
 execute positioned ~10 ~ ~ run function delogger:log/debug
